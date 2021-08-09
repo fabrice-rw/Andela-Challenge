@@ -1,8 +1,10 @@
 
 
 body {
+    background-color: hsl(0, 0%, 95%);
+    margin: 0;
+    padding: 0;
     font-size: 15px;
-    margin: auto;
 }
 h2 {
     font-family: 'Big Shoulders Display', cursive;
@@ -15,11 +17,11 @@ p {
     font-weight: 400;
     text-justify: distribute;
 }
-.cars {
+ .cars {
     display: flex;
     align-items: center;
-    flex-wrap: wrap; 
     justify-content: center;
+    flex-wrap: wrap; 
     margin:10%; 
 }
 .car:hover {
@@ -55,4 +57,9 @@ button {
     outline: none;
     cursor: pointer;
     flex-basis: content;
+}
+button:hover {
+    color: black;
+    background: hsl(0, 0%, 95%);
+    
 }
